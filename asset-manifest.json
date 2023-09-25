@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sachin0176/Front-End__React.git/static/css/main.3315c3de.css",
+    "main.js": "/sachin0176/Front-End__React.git/static/js/main.8a1b7c87.js",
+    "static/js/787.64709e90.chunk.js": "/sachin0176/Front-End__React.git/static/js/787.64709e90.chunk.js",
+    "static/media/poster-img.png": "/sachin0176/Front-End__React.git/static/media/poster-img.86f96102434e2ad91064.png",
+    "static/media/product2.png": "/sachin0176/Front-End__React.git/static/media/product2.ead25e84401dc7c35470.png",
+    "static/media/product3.png": "/sachin0176/Front-End__React.git/static/media/product3.eb825f9955eab997c77f.png",
+    "static/media/product1.png": "/sachin0176/Front-End__React.git/static/media/product1.3a64dcb8ae03eb031992.png",
+    "static/media/Star.png": "/sachin0176/Front-End__React.git/static/media/Star.41f6e79b2a4d4382ba8d.png",
+    "index.html": "/sachin0176/Front-End__React.git/index.html",
+    "main.3315c3de.css.map": "/sachin0176/Front-End__React.git/static/css/main.3315c3de.css.map",
+    "main.8a1b7c87.js.map": "/sachin0176/Front-End__React.git/static/js/main.8a1b7c87.js.map",
+    "787.64709e90.chunk.js.map": "/sachin0176/Front-End__React.git/static/js/787.64709e90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3315c3de.css",
+    "static/js/main.8a1b7c87.js"
+  ]
+}
