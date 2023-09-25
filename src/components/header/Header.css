@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  background: #1a1a1a;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  justify-content: space-between;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.85rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #626262;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #626262;
+}
+
+.icon {
+  box-sizing: border-box;
+  width: 21px;
+  height: 12.9px;
+  background: transparent;
+  border: 0.4px solid #191919;
+
+}

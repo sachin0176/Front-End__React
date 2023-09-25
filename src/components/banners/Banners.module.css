@@ -1,0 +1,225 @@
+.banners {
+    width: 100%;
+    height: 748px;
+    background-color: #000;
+    position: relative;
+  }
+  .banner-header {
+    position: relative;
+  }
+  
+  .banner-look {
+    position: absolute;
+    top: 50%;
+  }
+  
+  /* BannerHeader.css */
+  .banner-headers {
+    color: #fff; /* Text color */
+    padding: 20px; /* Add padding for content inside the header */
+    max-width: 90%;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+  }
+  
+  .font-style {
+    font-family: Arial, sans-serif; /* Use a suitable font-family */
+  }
+  
+  .banner-header__above {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .banner-header__right {
+    display: flex;
+    
+  }
+  
+  .banner-header__above h1 {
+    /* Adjust the font size as needed */
+    margin: 0;
+    font-weight: lighter;
+  
+  }
+  
+  .banner-header__right p {
+    margin: 0 10px; /* Add some spacing between the links */
+    font-weight: bold;
+  }
+  .banner-header__below {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 50%;
+  }
+  .banner-header__below p {
+    margin: 0 10px; /* Add some spacing between the links */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .yellow {
+    flex: 1;
+    width: 75%;
+    height: 45%;
+    margin: 0 0 5rem auto;
+    position: relative;
+  }
+  
+  .yellow::after {
+    content: "";
+    background: #f07e15;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 6rem;
+    z-index: 1;
+    opacity: 0.9;
+  }
+  
+  .banner-name {
+    position: absolute;
+    margin-left: 5%;
+    top: 30.5%;
+    z-index: 1;
+  }
+  .banner-name h1 {
+    margin: 0;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 10rem;
+    line-height: 103px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 40px;
+  }
+  
+  .border-text {
+    flex: 1;
+    background-color: transparent;
+    font-style: normal;
+    border: 2px solid white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin: 0 0.2rem;
+    color: transparent; /* Adjust margin as needed to separate the digits */
+  }
+  
+  .countLook {
+    white-space: pre;
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.2),
+      0px -2px 2px rgba(255, 255, 255, 0.3);
+  }
+  
+  .banner-one {
+    
+    position: absolute;
+    margin-left: 55%;
+    top: 11%;
+    z-index: 1;
+    background: transparent;
+    opacity: 0.93;
+  }
+  
+  .banner-one img {
+    width: 432px;
+    height: auto;
+  }
+  
+  .banner-two {
+    position: absolute;
+    margin-left: 62%;
+    top: 11%;
+    z-index: 1;
+    background: transparent;
+  }
+  
+  .banner-two img {
+    width: 367px;
+    height: auto;
+    color: white;
+    filter: brightness(200%);
+  }
+  
+  .name-price {
+    position: absolute;
+    z-index: 3;
+    top: 73%;
+    margin-left: 78rem;
+  }
+  
+  .name-price p {
+    margin: 0;
+    font-style: normal;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  
+  .hr-container {
+    position: absolute;
+    top: 80%;
+    width: 50%; /* Set the width of the container */
+    padding: 0; /* Adjust top margin as needed */
+    margin: 0; /* Adjust bottom margin as needed */
+    z-index: 1;
+  }
+  
+  .styled-hr {
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height (thickness) of the horizontal line */
+    background-color: white; /* Set the color of the horizontal line to white */
+    font-weight: bold; /* Make the horizontal line text bold */
+  }
+  
+  .see-more {
+    display: inline;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 85%;
+    margin-left: 8rem;
+    border: 2px solid white;
+  }
+  
+  .see-more p {
+    display: inline;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  
+  .arrow-icon {
+    font-size: 30px;
+    color: #fff; /* Arrow color */
+    vertical-align: middle;
+  
+  }
+
+  #banner-tott{
+    margin-left: 19rem;
+    
+  }
+
+  /* Media query for iPhone 14 - Minimum Width */
+@media (max-width: 390px) {
+  /* Your styles for a minimum width of 390px */
+  /* This will target screens with at least 390px in width, including iPhone 14. */
+  #banner-tott{
+    margin-left: 19rem;
+  }
+
+  
+  
+}
+
+/* Media query for iPhone 14 - Minimum Height */
+@media (min-height: 844px) {
+  /* Your styles for a minimum height of 844px */
+  /* This will target screens with at least 844px in height, including iPhone 14. */
+}

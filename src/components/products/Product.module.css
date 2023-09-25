@@ -1,0 +1,114 @@
+.products{
+    height: 710px;
+    width: auto;
+    background: white;
+    margin-left: 4rem;
+    color: black;
+    margin-top: 4rem;
+    padding: 0;
+  }
+  .new-products{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .new-product{
+    width: 30%;
+    color: black;
+  }
+  .new-product h1{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 6px;
+    font-size: 3rem;
+  }
+  .new-product hr{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+  }
+  
+  /* CustomArrowIcon.module.css */
+  
+  .custom-arrow-icon {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    font-size: 24px; /* Adjust the size of the arrow icon */
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    text-align:center;
+  
+  }
+  
+  .arrow-left::before {
+    content: '<';
+    
+  }
+  
+  .arrow-right::before {
+    content: '>';
+   
+  }
+  
+  .line{
+    display: flex;
+    flex: 4;
+    
+  }
+  
+  .line-l {
+    
+    flex: 1;
+    border: none;
+    border: 1px solid #333; /* Adjust the line color and style */
+    margin: 0.3rem 1rem 0 0  ; /* Adjust the margin between the arrows and the line */
+    
+  }
+  
+  .line-r {
+    flex: 1;
+    border: none;
+    border: 1px solid #333; /* Adjust the line color and style */
+    margin: 0.3rem 0 0 0  ; /* Adjust the margin between the arrows and the line */
+  }
+  .product-m{
+    display: flex;
+    justify-content: space-between;
+  }
+  .product-left{
+    margin-top:2rem;
+  }
+  .product-left p{
+    margin: 0 0 1rem 0;
+    padding: 0;
+  }
+  .product-text__bold{
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .product-list{
+    display: flex;
+    margin-left: 3rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .product-view{
+    width: 25%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  .styled-hr {
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height (thickness) of the horizontal line */
+    background-color: white; /* Set the color of the horizontal line to white */
+    font-weight: bold; /* Make the horizontal line text bold */
+  }
